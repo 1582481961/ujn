@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8">
+    <title>济南大学返校系统</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        .w {
+            width: 900px;
+            margin: 0 auto;
+        }
+
+        .header {
+            width: 900px;
+            height: 520px;
+            background-color: #0CBF73;
+            Border-radius: 30px;
+            margin-top: 15px;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .info {
+            width: 0px;
+            height: 0px;
+            border-top: 211px solid #367bdb;
+            border-left: 211px solid transparent;
+            position: absolute;
+            right: 0;
+        }
+
+        .name h3 {
+            color: #fefefe;
+            margin-left: 35px;
+            padding-top: 10px;
+            font-size: 45px;
+            margin-top: 10px;
+            font-weight: 500;
+        }
+
+        .name p {
+            color: #fefefe;
+            margin-left: 30px;
+            font-size: 40px;
+            font-weight: 300;
+        }
+
+        .code img {
+            width: 220px;
+            height: 220px;
+            border-radius: 20px;
+            position: absolute;
+            bottom: 20px;
+            left: 35px;
+        }
+
+        .school {
+            position: absolute;
+            right: 35px;
+            bottom: 25px;
+            text-align: right;
+        }
+
+        .school p {
+            color: #fefefe;
+            font-size: 35px;
+            padding-top: 5px;
+            font-weight: 310;
+        }
+
+        .time {
+            width: 900px;
+            margin: 0 auto;
+            margin-top: 30px;
+            font-size: 40px;
+            margin-bottom: 30px;
+        }
+
+        .one {
+            width: 900px;
+            height: 160px;
+            background-color: #2EABFF;
+            border-radius: 30px;
+            margin-top: 20px;
+            line-height: 160px;
+            text-align: center;
+            font-size: 42px;
+            color: #fefefe;
+        }
+
+        .two {
+            width: 900px;
+            height: 160px;
+            background-color: #FF8C00;
+            border-radius: 30px;
+            margin-top: 20px;
+            line-height: 160px;
+            text-align: center;
+            font-size: 42px;
+            color: #fefefe;
+        }
+
+        .father {
+            height: 160px;
+            display: flex;
+        }
+
+        .father .son1 {
+            width: 440px;
+            height: 160px;
+            background-color: #047DE2;
+            ;
+            border-radius: 30px;
+            margin-top: 20px;
+            line-height: 160px;
+            text-align: center;
+            font-size: 42px;
+            color: #fefefe;
+            margin-left: 40px;
+        }
+
+        .father .son2 {
+            width: 440px;
+            height: 160px;
+            background-color: #047DE2;
+            border-radius: 30px;
+            margin-top: 20px;
+            line-height: 160px;
+            text-align: center;
+            font-size: 42px;
+            color: #fefefe;
+            margin-right: 40px;
+        }
+
+        .three {
+            width: 900px;
+            height: 160px;
+            background-color: #32CD32;
+            border-radius: 30px;
+            margin-top: 35px;
+            line-height: 160px;
+            text-align: center;
+            font-size: 42px;
+            color: #fefefe;
+            position: relative
+        }
+
+        .point {
+            position: absolute;
+            left: 332px;
+            bottom: 0px;
+        }
+
+        a {
+            text-decoration: none;
+            color: #fefefe;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="header w">
+        <div class="info">
+        </div>
+        <div class="no w"></div>
+        <div class="name">
+            <h3>济南大学</h3>
+            <p>返校健康卡</p>
+        </div>
+        <div class="code"><img src="./img/code.png"></div>
+        <div class="school">
+            <p>李树杰（本科生)</p>
+            <p>文化和旅游学院</p>
+            <p>传媒1901</p>
+            <p>201931510008</p>
+        </div>
+    </div>
+    <div class="time">
+        <script language=Javascript>
+            var now = new Date()
+            document.write("当前时间:&nbsp;&nbsp;&nbsp2021年" + (now.getMonth() + 1) + "月" + now.getDate() + "日" + now.getHours() + "时" + now.getMinutes() + "分" + now.getSeconds() + "秒")
+        </script>
+    </div>
+    <div class="one w">
+        体温上报
+    </div>
+    <div class="two w">
+        体温上报记录
+    </div>
+    <div class="father">
+        <div class="son1 w">
+            日常外出登记
+        </div>
+        <div class="son2 w">
+            节假日去向登记
+        </div>
+    </div>
+    <a href="./ujn1.html">
+        <div class="three w">
+            <div class="point"><img src="./img/point.png"></div>
+            出入扫码
+        </div>
+    </a>
+</body>
+
+</html>
